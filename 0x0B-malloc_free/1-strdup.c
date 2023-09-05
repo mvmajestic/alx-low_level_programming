@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _strdup - will duplicate string to new memory space location
+ * _strdup - will duplicate str to new memory space location
  * @str: char to print
  * Return: 0 on success.
  */
