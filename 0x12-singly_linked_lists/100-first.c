@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void first(void) __attribute__ ((constructor));
+void print_text(void) __attribute__ ((constructor));
 
 /**
  * print_text - the function to print the desired text.
