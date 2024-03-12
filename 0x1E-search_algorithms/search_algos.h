@@ -5,13 +5,12 @@
 #include <stdlib.h>
 
 /**
+ * Description: singly liked list node structure
  * struct listint_s - singly linked list
  *
  * @n: the integer
  * @index: the index of the node in the list
  * @next: the pointer to the next node
- *
- * Description: singly linked list node structure
  */
 
 typedef struct listint_s
@@ -23,14 +22,13 @@ typedef struct listint_s
 } listint_t;
 
 /**
+ * Description: singly linked list node structure with an express lane
  * struct skiplist_s - the singly linked list with an express lane
  *
  * @n: the integer
  * @index: the index of the node in the list
  * @next: the pointer to the next node
  * @express: the pointer to the next node in the express lane
- *
- * Description: singly linked list node structure with an express lane
  */
 
 typedef struct skiplist_s
