@@ -1,7 +1,6 @@
 #include "search_algos.h"
 
 /**
- * Description: will print a value every time it is compared in the array.
  * linear_search - Searches for a value in an array
  *                 of integers using linear search.
  * @array: A pointer to the first element of the array to search.
@@ -13,7 +12,6 @@
  */
 
 int linear_search(int *array, size_t size, int value)
-
 {
 	size_t i;
 
